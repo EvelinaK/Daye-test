@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/Daye-test/static/css/main.eef56c3b.css",
-    "main.js": "/Daye-test/static/js/main.847d995a.js",
-    "static/js/773.bfe99833.chunk.js": "/Daye-test/static/js/773.bfe99833.chunk.js",
-    "static/js/28.79b75004.chunk.js": "/Daye-test/static/js/28.79b75004.chunk.js",
-    "static/js/181.b735be15.chunk.js": "/Daye-test/static/js/181.b735be15.chunk.js",
-    "static/js/823.e6746b27.chunk.js": "/Daye-test/static/js/823.e6746b27.chunk.js",
-    "static/js/802.5a98a651.chunk.js": "/Daye-test/static/js/802.5a98a651.chunk.js",
+    "main.js": "/Daye-test/static/js/main.38ee118f.js",
+    "static/js/133.a1ee72e0.chunk.js": "/Daye-test/static/js/133.a1ee72e0.chunk.js",
+    "static/js/28.53dd34ea.chunk.js": "/Daye-test/static/js/28.53dd34ea.chunk.js",
+    "static/js/181.80900b96.chunk.js": "/Daye-test/static/js/181.80900b96.chunk.js",
+    "static/js/823.105cdf35.chunk.js": "/Daye-test/static/js/823.105cdf35.chunk.js",
+    "static/js/802.230c3cc7.chunk.js": "/Daye-test/static/js/802.230c3cc7.chunk.js",
     "static/media/color.jpg": "/Daye-test/static/media/color.34acd935d959a2b86b83.jpg",
+    "static/media/info.png": "/Daye-test/static/media/info.ebdbe932d8d9e1b18d1e.png",
     "index.html": "/Daye-test/index.html",
     "static/media/getFetch.cjs": "/Daye-test/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.eef56c3b.css.map": "/Daye-test/static/css/main.eef56c3b.css.map",
-    "main.847d995a.js.map": "/Daye-test/static/js/main.847d995a.js.map",
-    "773.bfe99833.chunk.js.map": "/Daye-test/static/js/773.bfe99833.chunk.js.map",
-    "28.79b75004.chunk.js.map": "/Daye-test/static/js/28.79b75004.chunk.js.map",
-    "181.b735be15.chunk.js.map": "/Daye-test/static/js/181.b735be15.chunk.js.map",
-    "823.e6746b27.chunk.js.map": "/Daye-test/static/js/823.e6746b27.chunk.js.map",
-    "802.5a98a651.chunk.js.map": "/Daye-test/static/js/802.5a98a651.chunk.js.map"
+    "main.38ee118f.js.map": "/Daye-test/static/js/main.38ee118f.js.map",
+    "133.a1ee72e0.chunk.js.map": "/Daye-test/static/js/133.a1ee72e0.chunk.js.map",
+    "28.53dd34ea.chunk.js.map": "/Daye-test/static/js/28.53dd34ea.chunk.js.map",
+    "181.80900b96.chunk.js.map": "/Daye-test/static/js/181.80900b96.chunk.js.map",
+    "823.105cdf35.chunk.js.map": "/Daye-test/static/js/823.105cdf35.chunk.js.map",
+    "802.230c3cc7.chunk.js.map": "/Daye-test/static/js/802.230c3cc7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eef56c3b.css",
-    "static/js/main.847d995a.js"
+    "static/js/main.38ee118f.js"
   ]
 }
