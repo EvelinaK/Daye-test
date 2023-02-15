@@ -26,7 +26,7 @@ export const pieStyles = () => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    width: "75%",
+    width: "80%",
   },
   pieNeastedChartContainer: {
     display: "flex",

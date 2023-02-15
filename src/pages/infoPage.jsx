@@ -65,7 +65,7 @@ const Info = () => {
               <ArticlesComponent />
               <PieChartComponent
                 data={stats}
-                visibleEffect={false}
+                visibleEffect={true}
               />
             </div>
           </div>

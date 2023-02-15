@@ -3,7 +3,7 @@ import image from "../image/color.jpg";
 export const ProductPageStyles = () => ({
   searchWrapper: {
     display: "flex",
-    width: "40%",
+    width: "30%",
     alignItems: "flex-start",
     justifyContent: "center",
     margin: "0 auto",
@@ -37,12 +37,10 @@ export const InfoPageStyles = () => ({
   },
   infoWrapperContainer: {
     display: "flex",
+    alignItems: "center",
   },
   imageWrapper: {
-    display: "flex",
-    width: "auto",
-    height: "100vh",
-    backgroundImage: `url(${image})`,
+    // backgroundImage: `url(${image})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "scroll",

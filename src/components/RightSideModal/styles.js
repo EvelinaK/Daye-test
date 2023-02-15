@@ -127,7 +127,7 @@ export const portalModalStyles = () => ({
     flexGrow: 1,
     overflow: "auto",
     background: "#ffffe4",
-    height: "100vh",
+    height: "95vh",
   },
   confirmRightModal: {
     margin: 0,

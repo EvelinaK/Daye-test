@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import ArticlesComponent from '../components/ArticlesComponent'
 import PieChartComponent from '../components/PieChart/index'
 import { InfoPageStyles } from './styles'
+import styled from "styled-components";
 
 const Home = () => {
 
@@ -12,13 +13,13 @@ const Home = () => {
 
   const stats = [
     {
-      "label": "sleep",
-      "name": "sleep",
+      "label": "comfortable hygiene products",
+      "name": "comfortable hygiene products",
       "value": 20,
     },
     {
-      "label": "balanced diet",
-      "name": "balanced diet",
+      "label": "no menstrual pain",
+      "name": "no menstrual pain",
       "value": 15,
     },
     {
@@ -32,8 +33,8 @@ const Home = () => {
       "value": 20,
     },
     {
-      "label": "physical activity",
-      "name": "physical activity",
+      "label": "women's health screening",
+      "name": "women's health screening",
       "value": 20,
     },
     {
@@ -43,6 +44,8 @@ const Home = () => {
     },
 
   ]
+
+
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -62,7 +65,7 @@ const Home = () => {
           <h2 style={classes.mainTitle}>{'Stats information'}</h2>
           <div style={classes.imageWrapper}>
             <div style={classes.infoWrapperContainer}>
-              <ArticlesComponent />
+              <ArticlesComponent stats={stats} />
               <PieChartComponent
                 data={stats}
                 visibleEffect={false}

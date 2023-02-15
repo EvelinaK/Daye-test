@@ -44,25 +44,36 @@ export const cardComponentStyles = () => ({
       padding: "0 15px",
     },
   },
+  noProducts: {
+    display: "flex",
+    justifyContent: "center",
+    minHeight: 50,
+    margin: 10,
+  },
+  ProductsAdd: {
+    display: "flex",
+    justifyContent: "flex-end",
+  },
   cardLabel: {
     color: "green",
     overflow: "hidden",
   },
   cardPrice: {
-    overflow: "hidden",
-    textOverflow: "ellipsis",
+    display: "flex",
+    justifyContent: "space-between",
     color: `1px solid ${`#925a4d`}`,
     padding: "5px 15px",
     fontWeight: 600,
     fontFamily: theme.typography.fontFamily,
   },
+  cardContainerWiew: {
+    display: "flex",
+    justifyContent: "space-between",
+  },
   cardValue: {
-    overflow: "hidden",
-    textOverflow: "ellipsis",
     color: theme.palette.primary.textBrown,
     padding: "5px 10px",
     minHeight: "80px",
-    maxHeight: "80px",
     border: `1px solid ${`#925a4d`}`,
     borderRadius: "2px",
     fontFamily: theme.typography.fontFamily,
@@ -89,17 +100,32 @@ export const cardComponentStyles = () => ({
   },
   descriptionContainer: {
     display: "flex",
-    justifyContent: "flex-start",
+    justifyContent: "space-between",
     alignItems: "center",
     fontFamily: theme.typography.fontFamily,
   },
   infoDescription: {
     display: "flex",
-    marginRight: "20px",
     color: `1px solid ${`#925a4d`}`,
   },
   addToCardButton: {
     fontSize: "1.4rem",
+  },
+  gridContainerCardHeader: {
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr 1fr",
+    columnGap: "5px",
+    rowGap: "5px",
+    borderBottom: "1px solid #925a4d",
+  },
+  gridContainerCard: {
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr 1fr",
+    columnGap: "5px",
+    rowGap: "5px",
+  },
+  gridItem: {
+    display: "flex",
   },
 
   basketCardBox: {
