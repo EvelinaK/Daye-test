@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Daye-test/static/css/main.eef56c3b.css",
+    "main.js": "/Daye-test/static/js/main.448a3265.js",
+    "static/js/773.bfe99833.chunk.js": "/Daye-test/static/js/773.bfe99833.chunk.js",
+    "static/js/28.79b75004.chunk.js": "/Daye-test/static/js/28.79b75004.chunk.js",
+    "static/js/181.b735be15.chunk.js": "/Daye-test/static/js/181.b735be15.chunk.js",
+    "static/js/823.e6746b27.chunk.js": "/Daye-test/static/js/823.e6746b27.chunk.js",
+    "static/js/802.5a98a651.chunk.js": "/Daye-test/static/js/802.5a98a651.chunk.js",
+    "static/media/color.jpg": "/Daye-test/static/media/color.34acd935d959a2b86b83.jpg",
+    "index.html": "/Daye-test/index.html",
+    "static/media/getFetch.cjs": "/Daye-test/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.eef56c3b.css.map": "/Daye-test/static/css/main.eef56c3b.css.map",
+    "main.448a3265.js.map": "/Daye-test/static/js/main.448a3265.js.map",
+    "773.bfe99833.chunk.js.map": "/Daye-test/static/js/773.bfe99833.chunk.js.map",
+    "28.79b75004.chunk.js.map": "/Daye-test/static/js/28.79b75004.chunk.js.map",
+    "181.b735be15.chunk.js.map": "/Daye-test/static/js/181.b735be15.chunk.js.map",
+    "823.e6746b27.chunk.js.map": "/Daye-test/static/js/823.e6746b27.chunk.js.map",
+    "802.5a98a651.chunk.js.map": "/Daye-test/static/js/802.5a98a651.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eef56c3b.css",
+    "static/js/main.448a3265.js"
+  ]
+}
