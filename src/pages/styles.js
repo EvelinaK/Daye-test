@@ -39,11 +39,5 @@ export const InfoPageStyles = () => ({
     display: "flex",
     alignItems: "center",
   },
-  imageWrapper: {
-    // backgroundImage: `url(${image})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundAttachment: "scroll",
-    backgroundPosition: "center left",
-  },
+  imageWrapper: {},
 });

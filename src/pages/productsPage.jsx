@@ -1,4 +1,5 @@
 import { useMemo, useState, useEffect } from 'react'
+import i18n from "i18next";
 import { observer } from 'mobx-react-lite'
 import Pagination from '../components/PaginationComponent/index'
 import getFilteredList from '../services/getFilteredList'
@@ -299,7 +300,7 @@ const Products = () => {
         <p></p>
       ) : (
         <>
-          <h2 style={classes.mainTitle}>{'Products list'}</h2>
+          <h2 style={classes.mainTitle}>{i18n.t('Products list')}</h2>
           <div style={classes.searchWrapper}>
             <SearchInput onChange={setSearch} />
           </div>

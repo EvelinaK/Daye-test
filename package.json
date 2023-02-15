@@ -1,5 +1,5 @@
 {
-  "name": "Daye-test",
+  "name": "daye-test",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://evelinak.github.io/Daye-test",
@@ -24,7 +24,6 @@
     "date-fns": "^2.29.3",
     "deps": "^1.0.0",
     "formik": "^2.2.9",
-    "gh-pages": "^5.0.0",
     "i18next": "^21.10.0",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.1.1",

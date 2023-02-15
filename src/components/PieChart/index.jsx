@@ -103,7 +103,7 @@ const renderActiveShape = (props) => {
     )
 }
 export const responsiveContainerLicensesProps = {
-    width: '60%',
+    width: '90%',
     height: 320
 }
 const PieChartComponent = ({

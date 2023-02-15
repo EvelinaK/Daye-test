@@ -63,7 +63,7 @@ const ArticlesComponent = ({ stats }) => {
       </div>
       <div style={classes.pointsContainer}>
         <UnorderedList>
-          {stats.length ? (
+          {stats?.length ? (
             stats.map((elem, i) => (
               <Item item={i}>
                 <StyleContent>

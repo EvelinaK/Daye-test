@@ -26,7 +26,7 @@ export const cardComponentStyles = () => ({
   },
   controlTitle: {
     display: "flex",
-    justifyContent: "flex-end",
+    justifyContent: "space-between",
     alignItems: "center",
     padding: "15px 10px 10px",
   },

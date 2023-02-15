@@ -19,29 +19,32 @@ const ProductCard = ({
 
   const formatter = (card) => {
     let res = card?.tampons || card?.tapons;
-    if (Array.isArray(res)) {
-      return res;
-    } else {
+    if (!Array.isArray(res)) {
       const xml = new DOMParser().parseFromString(res, "text/xml");
 
-      res = Array.prototype.slice
-        .call(xml.getElementsByTagName("tampon"))
-        .map((tamponXml) => {
-          const tampon = {};
-          Array.prototype.slice.call(tamponXml.children).forEach((attr) => {
-            tampon[attr.tagName] = attr.textContent;
-          });
+      res = Array.prototype.slice.call(xml.getElementsByTagName("tampon"));
 
-          return tampon;
+      res = res.map((tamponXml) => {
+        const tampon = {};
+        Array.prototype.slice.call(tamponXml.children).forEach((elem) => {
+          tampon[elem.tagName] = elem.textContent;
         });
+
+        return tampon;
+      });
     }
 
     return res;
   };
+  const title =
+    card.hasOwnProperty("tapons") || card.hasOwnProperty("tampons")
+      ? "Tampons"
+      : "Product";
 
   return (
     <div key={card.price} style={classes.cardBox}>
       <div style={classes.controlTitle}>
+        <span>{title}</span>
         {removeProductFromBasket ? (
           <IconButton onClick={(e) => removeProductFromBasket(e, card)}>
             <ClearIcon />
